@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.1.0</Version>
+    <Authors>nakky</Authors>
+    <Company>nakky</Company>
+    <Description>Simple WakeOnLan Utility.</Description>
+    <PackageProjectUrl>https://github.com/nakky/WakeOnLanSharp</PackageProjectUrl>
+    <PackageTags>Wake On Lan, WOL, MagicPacket.</PackageTags>
+  </PropertyGroup>
+
+</Project>

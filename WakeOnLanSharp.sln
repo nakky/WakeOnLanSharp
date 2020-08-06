@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WakeOnLanSharp", "WakeOnLanSharp\WakeOnLanSharp.csproj", "{C46C2E50-304A-4B6A-8DF2-1989B4DC7D72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WakeOnLanSample", "WakeOnLanSample\WakeOnLanSample.csproj", "{BA55B2E6-2CD5-44CE-B1F6-0CAECDF6A58A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C46C2E50-304A-4B6A-8DF2-1989B4DC7D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46C2E50-304A-4B6A-8DF2-1989B4DC7D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46C2E50-304A-4B6A-8DF2-1989B4DC7D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46C2E50-304A-4B6A-8DF2-1989B4DC7D72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA55B2E6-2CD5-44CE-B1F6-0CAECDF6A58A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA55B2E6-2CD5-44CE-B1F6-0CAECDF6A58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA55B2E6-2CD5-44CE-B1F6-0CAECDF6A58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA55B2E6-2CD5-44CE-B1F6-0CAECDF6A58A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2745BBB-B45D-47FA-B07D-202414F7DCCC}
+	EndGlobalSection
+EndGlobal
