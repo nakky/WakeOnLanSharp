@@ -5,7 +5,7 @@
     <Version>0.1.0</Version>
     <Authors>nakky</Authors>
     <Company>nakky</Company>
-    <Description>Simple WakeOnLan Utility.</Description>
+    <Description>Simple WakeOnLan Utility for C#.</Description>
     <PackageProjectUrl>https://github.com/nakky/WakeOnLanSharp</PackageProjectUrl>
     <PackageTags>Wake On Lan, WOL, MagicPacket.</PackageTags>
   </PropertyGroup>
