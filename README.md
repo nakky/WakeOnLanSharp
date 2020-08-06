@@ -14,7 +14,7 @@ Install-Package WakeOnLanSharp
 ~~~csharp
 using WakeOnLanSharp;
 ...
-WakeOnLan wol = new WakeOnLan(9);
+WakeOnLan wol = new WakeOnLan(9); //Port 9 is used here
 ...
 string macAddress = "00-00-00-00-00-00";
 //string macAddress = "00:00:00:00:00:00"; //Separator can be "-" or ":".
