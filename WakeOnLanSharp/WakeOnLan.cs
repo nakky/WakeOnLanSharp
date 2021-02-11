@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net;
+using System.Threading.Tasks;
 
 namespace WakeOnLanSharp
 {
@@ -16,12 +17,13 @@ namespace WakeOnLanSharp
             sender = new UDPSender(PortNum);
         }
 
-        public void SendMagicPacket(byte[] macAddress, string ip, int times = 3)
+        public async Task SendMagicPacket(byte[] macAddress, string ip, int times = 3, int intervalMilliSec = 0)
         {
             byte[] magic = BuildMagicPacket(macAddress);
             for(int i = 0 ; i < times ; i++)
             {
-                sender.Send(ip, magic.Length, magic);
+                await sender.Send(ip, magic.Length, magic);
+                if(intervalMilliSec > 0) await Task.Delay(intervalMilliSec);
             }
         }
 
