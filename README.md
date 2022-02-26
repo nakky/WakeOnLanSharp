@@ -4,7 +4,7 @@ Simple WakeOnLan Utility for C#.
 
 ## Installation
 
-We recommend to insntall Stable Snowball using Nuget.
+We recommend to insntall Stable WakeOnLanSharp using Nuget.
 ~~~
 Install-Package WakeOnLanSharp
 ~~~
